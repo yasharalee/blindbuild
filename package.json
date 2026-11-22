@@ -1,0 +1,7 @@
+{
+  "name": "blindbuild-repo",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test plugins/blindbuild/test/units.test.mjs plugins/blindbuild/test/loop.test.mjs plugins/blindbuild/test/stream.test.mjs plugins/blindbuild/test/run.test.mjs plugins/blindbuild/test/wait.test.mjs plugins/blindbuild/test/watch.test.mjs" },
+  "engines": { "node": ">=18" }
+}

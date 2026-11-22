@@ -1,0 +1,23 @@
+name: Bug report
+description: Something in blindbuild didn't work
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes: { label: Blindbuild version, placeholder: "0.4.0" }
+    validations: { required: true }
+  - type: input
+    id: env
+    attributes: { label: OS, Node and Claude Code versions, placeholder: "Windows 11, Node 20.20, Claude Code 2.1.326" }
+    validations: { required: true }
+  - type: textarea
+    id: steps
+    attributes: { label: Steps to reproduce, description: Commands you ran, with full paths. }
+    validations: { required: true }
+  - type: textarea
+    id: output
+    attributes: { label: What happened, description: "Paste the printed output and, for a builder run, summary.json and stderr.log from .devteam/runs/<time>/. Remove anything private." }
+    validations: { required: true }
+  - type: textarea
+    id: expected
+    attributes: { label: What you expected }

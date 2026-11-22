@@ -1,0 +1,16 @@
+{
+  "name": "blindbuild",
+  "owner": {
+    "name": "Yashar"
+  },
+  "metadata": {
+    "description": "Blindbuild: a planner + blind builder AI dev team for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "blindbuild",
+      "source": "./plugins/blindbuild",
+      "description": "A planner (Claude Code) that launches and supervises a blind builder team (headless Claude Code), under 19 locked engineering rules."
+    }
+  ]
+}

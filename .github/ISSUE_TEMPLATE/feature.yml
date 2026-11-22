@@ -1,0 +1,21 @@
+name: Idea or change
+description: Suggest a change to blindbuild
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: "What gets in your way today?"
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Core rules
+      options:
+        - label: "This doesn't weaken a safety guard or a locked rule (or I explain why it should)."

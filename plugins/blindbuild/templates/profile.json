@@ -1,0 +1,13 @@
+{
+  "format": 1,
+  "project": { "name": "", "stage": "", "team": "solo" },
+  "commands": { "gate": "", "run": "", "lint": "", "db_apply": "", "db_backup": "" },
+  "builder": { "model": "", "allowed_commands": [] },
+  "stable_copy": "none",
+  "database": { "kind": "none", "type": "", "test_connection": "db-test", "stable_connection": "db-stable" },
+  "git": { "base_branch": "base", "branch_style": "neutral", "ids_in_commits": false, "signing_works_unattended": false },
+  "approvals": { "preset": "assisted" },
+  "loop": { "max_runs": 8, "max_hours": 8, "tick_seconds": 30, "checkin_minutes": 15, "max_parallel_devs": 3 },
+  "run": { "stall_minutes": 10, "max_wait_minutes": 30, "viewer": "on" },
+  "shared_resources": []
+}

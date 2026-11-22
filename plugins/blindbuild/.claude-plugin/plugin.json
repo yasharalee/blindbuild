@@ -1,0 +1,20 @@
+{
+  "name": "blindbuild",
+  "displayName": "Blindbuild",
+  "version": "0.6.0",
+  "description": "A planner (Claude Code) that launches and supervises a blind builder team (headless Claude Code, parallel developers, live viewer), under 19 locked engineering rules. Local only: never touches main, never deploys.",
+  "author": {
+    "name": "Yashar"
+  },
+  "license": "MIT",
+  "keywords": [
+    "planner",
+    "builder",
+    "dev-team",
+    "workflow",
+    "code-review",
+    "quality-gate"
+  ],
+  "homepage": "https://github.com/yasharalee/blindbuild",
+  "repository": "https://github.com/yasharalee/blindbuild"
+}
